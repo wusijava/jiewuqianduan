@@ -1,12 +1,12 @@
 <template>
-  <div class="home" v-loading="loading">
+  <div class="home" v-loading="loading" >
     <swiper id="swiperBox" v-bind:options="swiperOption" ref="mySwiper">
-      <swiper-slide class="swiper-slide slide-one">
+      <swiper-slide class="swiper-slide slide-one" >
         <div class="page">
-          <h3>科建股份</h3>
-          <p>KeJian Stock</p>
+         <!-- <h3>科建股份</h3>
+          <p>KeJian Stock</p>-->
         </div>
-        <p class="slogan">立人立己 达人达己</p>
+       <!-- <p class="slogan">立人立己 达人达己</p>-->
       </swiper-slide>
       <swiper-slide class="swiper-slide slide-two">
         <div class="page">
@@ -65,7 +65,7 @@
     </swiper>
   </div>
 </template>
- 
+
 <script>
 import { swiper, swiperSlide } from "vue-awesome-swiper";
 export default {
@@ -138,7 +138,7 @@ export default {
   }
 };
 </script>
- 
+
 <style lang="scss" scoped>
 /* .el-header {
   position: absolute;
@@ -250,11 +250,11 @@ export default {
   background-size: cover;
 }
 .slide-two {
-  background: url(../assets/img/home_do.jpg) no-repeat center;
+  background: url(../assets/img/3.jpeg) no-repeat center;
   background-size: cover;
 }
 .slide-three {
-  background: url(../assets/img/home_anli.jpg) no-repeat center;
+  background: url(../assets/img/4.jpg) no-repeat center;
   background-size: cover;
 }
 //最新资讯
