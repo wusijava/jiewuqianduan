@@ -1,5 +1,5 @@
 <template>
-  <div class="home" v-loading="loading" >
+  <div class="home" v-loading="loading" style="width: 1200px;margin-left: 400px">
     <swiper id="swiperBox" v-bind:options="swiperOption" ref="mySwiper">
       <swiper-slide class="swiper-slide slide-one" >
         <div class="page">
@@ -8,10 +8,17 @@
         </div>
        <!-- <p class="slogan">立人立己 达人达己</p>-->
       </swiper-slide>
+      <swiper-slide style="width: 1000px" >
+        <p>新闻资讯</p>
+        <ul>
+          <li>新闻1</li>
+          <li>新闻2</li>
+        </ul>
+      </swiper-slide>
       <swiper-slide class="swiper-slide slide-two">
         <div class="page">
-          <h3>经典案例</h3>
-          <p>Suecessful Cass</p>
+          <h3>明星教师</h3>
+          <p>Famous Teacher</p>
         </div>
         <ul class="case-item">
           <li
